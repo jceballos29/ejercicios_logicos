@@ -1,11 +1,11 @@
 const reverseString = (str) => {
     //Implementación
-    const type = typeof str;
+
     let length = str.length
     let s = str;
     let reverse = '';
 
-    if(type !== "string"){
+    if(typeof str !== "string"){
         throw new Error("Error: Tipo de dato o longitud no admitidos.");
     }
     if(length <= 1){
