@@ -14,6 +14,5 @@ function twoSums(numbs, target) {
     return solution
 }
 
-twoSums([3,3], 6)
 
 module.exports = twoSums;
