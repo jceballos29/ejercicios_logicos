@@ -1,6 +1,9 @@
 function keysAndValues(objInput) {
     //Implementación
-    return 0;
+    const keys = Object.keys(objInput).sort();
+    const values = keys.map(i => objInput[i])
+    
+    return [keys, values];
 }
 
 module.exports = keysAndValues;
